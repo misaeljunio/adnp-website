@@ -3,26 +3,34 @@ import { navLinks, siteConfig } from "@/data/site";
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-50 border-b border-[#dbc19c]/30 bg-[#FAFAF8]/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 border-b border-[#dbc19c]/30 bg-[#FAFAF8]/92 backdrop-blur-md">
       <div className="container-page flex h-20 items-center justify-between">
-        <Link href="#inicio" className="flex items-center gap-3">
-          <div className="flex h-11 w-11 items-center justify-center rounded-full bg-[#0976B2] text-sm font-black text-white shadow-md">
-            AD
+        {/* Logo */}
+        <Link href="#inicio" className="flex items-center gap-3 group" aria-label={siteConfig.churchName}>
+          <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-[#0976B2] shadow-md transition-shadow group-hover:shadow-[0_4px_16px_rgba(9,118,178,0.35)]">
+            <svg width="22" height="22" viewBox="0 0 44 44" fill="none" aria-hidden="true">
+              <rect x="20" y="6" width="4" height="32" rx="2" fill="white" />
+              <rect x="10" y="17" width="24" height="4" rx="2" fill="white" />
+              <circle cx="22" cy="6" r="3.5" fill="#DBC19C" />
+            </svg>
           </div>
           <div className="leading-tight">
-            <p className="text-sm font-semibold text-[#0976B2]">{siteConfig.shortName}</p>
-            <p className="hidden text-sm text-[#735748]/80 sm:block">
+            <p className="font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-widest text-[#0976B2]">
+              {siteConfig.shortName}
+            </p>
+            <p className="hidden font-[family-name:var(--font-crimson)] text-sm italic text-[#735748]/70 sm:block">
               {siteConfig.churchName}
             </p>
           </div>
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        {/* Navigation */}
+        <nav className="hidden items-center gap-7 md:flex" aria-label="Menu principal">
           {navLinks.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="text-sm font-medium text-[#735748]/80 transition hover:text-[#0976B2]"
+              className="font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-wider text-[#735748]/70 transition-colors hover:text-[#0976B2]"
             >
               {item.label}
             </Link>
