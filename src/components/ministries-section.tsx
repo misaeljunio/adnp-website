@@ -1,13 +1,6 @@
 import { SectionHeading } from "@/components/section-heading";
 import { ministries } from "@/data/site";
 
-const icons: Record<string, string> = {
-  Crianças: "✦",
-  Jovens: "✦",
-  "Louvor e Adoração": "✦",
-  "Ação Social": "✦",
-};
-
 export function MinistriesSection() {
   return (
     <section id="ministerios" className="section-pad">

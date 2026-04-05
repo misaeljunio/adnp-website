@@ -83,7 +83,7 @@ export function Hero() {
                 ].map((item, i) => (
                   <div
                     key={item.label}
-                    className={`rounded-2xl p-4 ${i % 2 === 0 ? "bg-[#DBC19C]/20" : "bg-[#0976B2]/08"}`}
+                    className="rounded-2xl p-4"
                     style={{ backgroundColor: i % 2 === 0 ? "rgba(219,193,156,0.2)" : "rgba(9,118,178,0.06)" }}
                   >
                     <p className="font-[family-name:var(--font-oswald)] text-sm font-semibold text-[#735748]">
