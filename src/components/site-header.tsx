@@ -12,8 +12,8 @@ export function SiteHeader() {
             <Image
               src="/adnp-website/logo.png"
               alt={siteConfig.churchName}
-              width={52}
-              height={52}
+              width={72}
+              height={72}
               priority
               className="rounded-full shadow-md"
             />
