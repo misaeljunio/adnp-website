@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { navLinks, siteConfig } from "@/data/site";
 
@@ -7,12 +8,15 @@ export function SiteHeader() {
       <div className="container-page flex h-20 items-center justify-between">
         {/* Logo */}
         <Link href="#inicio" className="flex items-center gap-3 group" aria-label={siteConfig.churchName}>
-          <div className="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-full bg-[#0976B2] shadow-md transition-shadow group-hover:shadow-[0_4px_16px_rgba(9,118,178,0.35)]">
-            <svg width="22" height="22" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-              <rect x="20" y="6" width="4" height="32" rx="2" fill="white" />
-              <rect x="10" y="17" width="24" height="4" rx="2" fill="white" />
-              <circle cx="22" cy="6" r="3.5" fill="#DBC19C" />
-            </svg>
+          <div className="flex-shrink-0 transition-transform group-hover:scale-105">
+            <Image
+              src="/adnp-website/logo.svg"
+              alt={siteConfig.churchName}
+              width={52}
+              height={52}
+              priority
+              className="rounded-full shadow-md"
+            />
           </div>
           <div className="leading-tight">
             <p className="font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-widest text-[#0976B2]">
