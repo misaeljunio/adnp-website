@@ -55,12 +55,12 @@ export function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="card-surface w-full max-w-sm bg-[#FAFAF8] p-8 text-[#735748] sm:p-10">
               {/* Logo mark */}
-              <div className="mx-auto h-20 w-20 overflow-hidden rounded-full shadow-lg">
+              <div className="mx-auto h-36 w-36 overflow-hidden rounded-full bg-[#0976B2] shadow-xl ring-4 ring-[#DBC19C] ring-offset-4 ring-offset-[#FAFAF8]">
                 <Image
                   src="/adnp-website/logo-hero.png"
                   alt="ADNP 46 anos Logo"
-                  width={90}
-                  height={90}
+                  width={160}
+                  height={160}
                   className="h-full w-full object-cover"
                   priority
                 />
