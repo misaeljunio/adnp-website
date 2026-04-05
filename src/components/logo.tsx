@@ -8,7 +8,7 @@ type LogoMarkProps = {
 export function LogoMark({ size = 44, className = "" }: LogoMarkProps) {
   return (
     <Image
-      src="/logo.png"
+      src="/adnp-website/logo.png"
       alt="ADNP Logo"
       width={size}
       height={size}
