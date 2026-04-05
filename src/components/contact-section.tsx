@@ -72,32 +72,25 @@ export function ContactSection() {
             </dl>
           </div>
 
-          {/* Map placeholder */}
+          {/* Map iframe */}
           <div className="card-surface overflow-hidden p-0">
             <div className="border-b border-[#dbc19c]/40 bg-[#FAFAF8] px-6 py-4 sm:px-8">
               <h3 className="font-[family-name:var(--font-oswald)] text-2xl font-bold text-[#735748]">
                 Localização
               </h3>
             </div>
-            <div className="flex min-h-[320px] items-center justify-center bg-[linear-gradient(135deg,rgba(9,118,178,0.06),rgba(219,193,156,0.10))] p-8 text-center">
-              <div>
-                <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-md">
-                  <svg width="28" height="28" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-                    <rect x="20" y="6" width="4" height="32" rx="2" fill="#0976B2" />
-                    <rect x="10" y="17" width="24" height="4" rx="2" fill="#0976B2" />
-                    <circle cx="22" cy="6" r="3.5" fill="#DBC19C" />
-                  </svg>
-                </div>
-                <p className="font-[family-name:var(--font-oswald)] text-lg font-bold text-[#735748]">
-                  Como chegar
-                </p>
-                <p className="mt-2 font-[family-name:var(--font-crimson)] text-base text-[#735748]/70">
-                  {siteConfig.address}
-                </p>
-                <p className="mt-4 text-sm text-[#735748]/50">
-                  Substitua este bloco por um mapa do Google Maps.
-                </p>
-              </div>
+            <div className="overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.93276470311!2d-47.98166222397405!3d-16.068978429778095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93598421a4255555%3A0xb18bb07da63106d2!2sAssembleia%20De%20Deus%20Novas%20De%20Paz!5e0!3m2!1spt-BR!2sbr!4v1775418654833!5m2!1spt-BR!2sbr"
+                width="600"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="h-[320px] w-full border-0 sm:h-[420px]"
+                title="Localização da igreja"
+              />
             </div>
           </div>
         </div>
