@@ -10,7 +10,7 @@ export function SiteHeader() {
         <Link href="#inicio" className="flex items-center gap-3 group" aria-label={siteConfig.churchName}>
           <div className="flex-shrink-0 transition-transform group-hover:scale-105">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt={siteConfig.churchName}
               width={52}
               height={52}

@@ -12,7 +12,7 @@ export function SiteFooter() {
           <div className="flex items-center gap-3">
             <div className="flex-shrink-0">
               <Image
-                src="/adnp-website/logo.svg"
+                src="/adnp-website/logo.png"
                 alt={siteConfig.churchName}
                 width={44}
                 height={44}
