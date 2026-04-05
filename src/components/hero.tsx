@@ -59,8 +59,8 @@ export function Hero() {
                 <Image
                   src="/adnp-website/logo-hero.png"
                   alt="ADNP 46 anos Logo"
-                  width={80}
-                  height={80}
+                  width={90}
+                  height={90}
                   className="h-full w-full object-cover"
                   priority
                 />
