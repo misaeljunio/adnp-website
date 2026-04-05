@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/data/site";
 
@@ -54,12 +55,15 @@ export function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="card-surface w-full max-w-sm bg-[#FAFAF8] p-8 text-[#735748] sm:p-10">
               {/* Logo mark */}
-              <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-[#0976B2] shadow-lg">
-                <svg width="36" height="36" viewBox="0 0 44 44" fill="none" aria-hidden="true">
-                  <rect x="20" y="6" width="4" height="32" rx="2" fill="white" />
-                  <rect x="10" y="17" width="24" height="4" rx="2" fill="white" />
-                  <circle cx="22" cy="6" r="3.5" fill="#DBC19C" />
-                </svg>
+              <div className="mx-auto h-20 w-20 overflow-hidden rounded-full shadow-lg">
+                <Image
+                  src="/adnp-website/logo.png"
+                  alt="ADNP Logo"
+                  width={80}
+                  height={80}
+                  className="h-full w-full object-cover"
+                  priority
+                />
               </div>
 
               <p className="mt-6 text-center font-[family-name:var(--font-oswald)] text-xs font-semibold uppercase tracking-[0.35em] text-[#0976B2]">

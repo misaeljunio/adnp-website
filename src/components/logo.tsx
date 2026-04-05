@@ -5,7 +5,7 @@ type LogoMarkProps = {
   className?: string;
 };
 
-export function LogoMark({ size = 44, className = "" }: LogoMarkProps) {
+export function LogoMark({ size = 64, className = "" }: LogoMarkProps) {
   return (
     <Image
       src="/adnp-website/logo.png"
@@ -28,7 +28,7 @@ export function LogoFull({ variant = "dark", className = "" }: LogoFullProps) {
 
   return (
     <div className={`flex items-center gap-3 ${className}`}>
-      <LogoMark size={44} />
+      <LogoMark size={64} />
       <div className="leading-tight">
         <p
           style={{ color: textColor, fontFamily: "var(--font-oswald), sans-serif", fontSize: "1rem", fontWeight: 700, letterSpacing: "0.05em", lineHeight: 1.1 }}

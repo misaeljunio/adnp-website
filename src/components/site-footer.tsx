@@ -14,8 +14,8 @@ export function SiteFooter() {
               <Image
                 src="/adnp-website/logo.png"
                 alt={siteConfig.churchName}
-                width={44}
-                height={44}
+                width={56}
+                height={56}
                 className="rounded-full"
               />
             </div>
