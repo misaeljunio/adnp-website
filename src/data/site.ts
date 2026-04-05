@@ -4,10 +4,10 @@ export const siteConfig = {
   slogan: "Uma igreja de fé, esperança e comunhão.",
   description:
     "Somos uma igreja comprometida com a Palavra de Deus, com a família e com o cuidado com as pessoas.",
-  address: "Rua a definir, Bairro a definir, Cidade a definir",
+  address: "Q. 17, 511-765 - Valparaizo I, Valparaíso de Goiás - GO",
   phone: "(00) 00000-0000",
   whatsapp: "(00) 00000-0000",
-  instagram: "@adnp.oficial",
+  instagram: "@oficialadnp",
   colors: {
     background: "#FAFAF8",
     accent: "#DBC19C",
