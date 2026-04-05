@@ -21,10 +21,7 @@ export function SiteHeader() {
             </div>
           </div>
           <div className="leading-tight">
-            <p className="hidden font-[family-name:var(--font-oswald)] text-sm font-bold tracking-wide text-[#735748] sm:block sm:text-base md:text-lg">
-              {siteConfig.shortName}
-            </p>
-            <p className="hidden font-[family-name:var(--font-crimson)] text-xs italic text-[#735748]/60 sm:block sm:text-sm">
+            <p className="hidden font-[family-name:var(--font-crimson)] text-sm sm:text-base md:text-lg italic text-[#735748]/60 sm:block sm:text-sm">
               {siteConfig.churchName}
             </p>
           </div>
