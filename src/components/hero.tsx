@@ -57,8 +57,8 @@ export function Hero() {
               {/* Logo mark */}
               <div className="mx-auto h-20 w-20 overflow-hidden rounded-full shadow-lg">
                 <Image
-                  src="/adnp-website/logo.png"
-                  alt="ADNP Logo"
+                  src="/adnp-website/logo-hero.png"
+                  alt="ADNP 46 anos Logo"
                   width={80}
                   height={80}
                   className="h-full w-full object-cover"
