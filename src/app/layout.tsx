@@ -4,6 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Assembleia de Deus Novas de Paz",
   description: "Igreja ADNP — fé, esperança e comunhão.",
+  icons: {
+  icon: "/adnp-website/logo.png",
+  apple: "/adnp-website/logo.png",
+  },
 };
 
 export default function RootLayout({
