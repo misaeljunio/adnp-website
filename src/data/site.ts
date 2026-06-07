@@ -1,7 +1,7 @@
 export const siteConfig = {
   churchName: "Assembleia de Deus Novas de Paz",
   shortName: "ADNP",
-  slogan: "Um lugar de fé, uma casa para sua família",
+  slogan: "Anunciar boas novas: Jesus é o caminho, a verdade e a vida",
   description:
     "Somos uma igreja comprometida com a Palavra de Deus, 46 anos cuidando de vidas e escrevendo histórias",
   address: "Q. 17, 511-765 - Valparaizo I, Valparaíso de Goiás - GO",
