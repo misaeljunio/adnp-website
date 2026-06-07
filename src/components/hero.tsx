@@ -31,10 +31,10 @@ export function Hero() {
               Assembleia de Deus<br />
               <span className="text-[#DBC19C]">Novas de Paz</span>
             </h1>
-            <p className="mt-6 font-[family-name:var(--font-crimson)] text-xl leading-8 text-white/85 sm:text-2xl">
+            <p className="mt-6 font-[family-name:var(--font-crimson)] text-2xl leading-8 text-white/85 sm:text-2xl">
               {siteConfig.slogan}
             </p>
-            <p className="mt-4 max-w-xl text-base leading-7 text-white/70">
+            <p className="mt-4 max-w-xl text-xl leading-7 text-white/70">
               {siteConfig.description}
             </p>
 
