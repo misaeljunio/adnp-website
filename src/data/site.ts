@@ -27,27 +27,39 @@ export const navLinks = [
 export const schedule = [
   {
     day: "Terça-feira",
-    title: "Culto de Oração",
-    time: "19h30",
+    title: "Oração",
+    time: "",
     note: "Momento de intercessão e busca espiritual.",
   },
   {
     day: "Quarta-feira",
-    title: "Estudo Bíblico",
+    title: "Culto de ensino",
     time: "19h30",
     note: "Ensino da Palavra para fortalecimento da fé.",
   },
   {
     day: "Sexta-feira",
-    title: "Culto de Doutrina",
+    title: "Culto da família",
     time: "19h30",
-    note: "Aprofundamento bíblico e comunhão.",
+    note: ".",
+  },
+  {
+    day: "Terceiro sábado do mês",
+    title: "Santa ceia do Senhor",
+    time: "19h30",
+    note: ".",
   },
   {
     day: "Domingo",
-    title: "Culto da Família",
+    title: "Escola bíblica dominical",
+    time: "09h00",
+    note: ".",
+  },
+  {
+    day: "Domingo",
+    title: "Culto público de adoração",
     time: "18h00",
-    note: "Celebração aberta para toda a igreja e visitantes.",
+    note: ".",
   },
 ];
 
