@@ -53,52 +53,28 @@ export function Hero() {
 
           {/* Right – identity card */}
           <div className="flex justify-center lg:justify-end">
-            <div className="card-surface w-full max-w-sm bg-[#FAFAF8] p-8 text-[#735748] sm:p-10">
+            <div className="card-surface flex w-full max-w-sm flex-col items-center justify-center bg-[#FAFAF8] px-8 py-12 text-[#735748] sm:px-10 sm:py-16">
               {/* Logo mark */}
-              <div className="mx-auto h-36 w-36 overflow-hidden rounded-full bg-[#0976B2] shadow-xl ring-4 ring-[#DBC19C] ring-offset-4 ring-offset-[#FAFAF8]">
+              <div className="h-44 w-44 overflow-hidden rounded-full bg-[#0976B2] shadow-xl ring-4 ring-[#DBC19C] ring-offset-4 ring-offset-[#FAFAF8]">
                 <Image
                   src="/adnp-website/logo-hero.png"
                   alt="ADNP 46 anos Logo"
-                  width={160}
-                  height={160}
+                  width={200}
+                  height={200}
                   className="h-full w-full object-cover"
                   priority
                 />
               </div>
 
-              <p className="mt-6 text-center font-[family-name:var(--font-oswald)] text-xs font-semibold uppercase tracking-[0.35em] text-[#0976B2]">
+              <p className="mt-8 text-center font-[family-name:var(--font-oswald)] text-sm font-semibold uppercase tracking-[0.35em] text-[#0976B2]">
                 Igreja Cristã
               </p>
-              <h2 className="mt-2 text-center font-[family-name:var(--font-oswald)] text-3xl font-bold text-[#735748]">
+              <h2 className="mt-2 text-center font-[family-name:var(--font-oswald)] text-4xl font-bold text-[#735748]">
                 ADNP
               </h2>
-              <p className="mt-2 text-center font-[family-name:var(--font-dancing)] text-lg text-[#735748]/70">
+              <p className="mt-3 text-center font-[family-name:var(--font-dancing)] text-2xl text-[#735748]/70">
                 Fé, esperança e comunhão
               </p>
-
-              <div className="mt-6 h-px bg-[#DBC19C]/40" />
-
-              <div className="mt-6 grid grid-cols-2 gap-3">
-                {[
-                  { label: "Cultos", sub: "Semanais" },
-                  { label: "Famílias", sub: "Bem-vindas" },
-                  { label: "Comunhão", sub: "Verdadeira" },
-                  { label: "Palavra", sub: "Viva" },
-                ].map((item, i) => (
-                  <div
-                    key={item.label}
-                    className="rounded-2xl p-4"
-                    style={{ backgroundColor: i % 2 === 0 ? "rgba(219,193,156,0.2)" : "rgba(9,118,178,0.06)" }}
-                  >
-                    <p className="font-[family-name:var(--font-oswald)] text-sm font-semibold text-[#735748]">
-                      {item.label}
-                    </p>
-                    <p className="mt-0.5 font-[family-name:var(--font-crimson)] text-sm text-[#735748]/70">
-                      {item.sub}
-                    </p>
-                  </div>
-                ))}
-              </div>
             </div>
           </div>
         </div>
@@ -113,4 +89,3 @@ export function Hero() {
     </section>
   );
 }
-
