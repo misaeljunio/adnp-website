@@ -44,7 +44,7 @@ export function Hero() {
               </Link>
               <Link
                 href="#contato"
-                className="inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm font-semibold tracking-wide text-white transition-all hover:bg-white/10 hover:border-white/50 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-[#0976B2]"
+                className="inline-flex items-center justify-center rounded-full border border-white/30 px-6 py-3 text-sm font-semibold tracking-wide text-white transition-all hover:bg-white/10 hover:bg-white/10"
               >
                 Fale conosco
               </Link>
@@ -52,7 +52,7 @@ export function Hero() {
           </div>
 
           {/* Right – identity card */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-center">
             <div className="card-surface flex w-full max-w-sm flex-col items-center justify-center bg-[#FAFAF8] px-8 py-12 text-[#735748] sm:px-10 sm:py-16">
               {/* Logo mark */}
               <div className="h-44 w-44 overflow-hidden rounded-full bg-[#0976B2] shadow-xl ring-4 ring-[#DBC19C] ring-offset-4 ring-offset-[#FAFAF8]">
@@ -72,7 +72,7 @@ export function Hero() {
               <h2 className="mt-2 text-center font-[family-name:var(--font-oswald)] text-4xl font-bold text-[#735748]">
                 ADNP
               </h2>
-              <p className="mt-3 text-center font-[family-name:var(--font-dancing)] text-2xl text-[#735748]/70">
+              <p className="mt-3 text-center font-[family-name:var(--font-dancing)] text-3xl text-[#735748]/70">
                 Fé, esperança e comunhão
               </p>
             </div>
